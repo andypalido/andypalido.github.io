@@ -1,0 +1,31 @@
+@import url("reset.css");
+
+.contenedor{
+	float: left;
+	width: 820px;
+	padding: 80px;
+	box-sizing: border-box;
+	background-color: #2dad95;
+}
+
+	.centrado{
+		width: 100%;
+		margin: auto;
+	}
+
+		section{
+			float: left;
+			width: 330px;
+			padding-top: 30px;
+		}
+
+			section a,
+			nav a{
+				display: block;
+				text-align: center;
+			}
+
+		nav{
+			float: right;
+			width: 230px;
+		}
