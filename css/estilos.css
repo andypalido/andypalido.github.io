@@ -24,17 +24,23 @@
 
 			section a,
 			nav li{
+				position: relative;
 				display: block;
 				text-align: center;
 			}
-
+				section a img.over{
+					display: none;
+					position: absolute;
+					top: 108px;
+					right: 155px;
+				}
+					section a:hover img.over{
+						display: block;
+					}
 		nav{
 			float: right;
 			width: 230px;
 		}
-			nav li{
-				position: relative;
-			}
 				nav li img.over{
 					display: none;
 					position: absolute;
