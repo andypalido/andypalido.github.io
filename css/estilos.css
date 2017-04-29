@@ -7,6 +7,9 @@
 	box-sizing: border-box;
 	background-color: #2dad95;
 }
+.contenedor, a{
+	cursor: url("../img/layout/cursor.png"), auto;
+}
 
 	.centrado{
 		width: 100%;
