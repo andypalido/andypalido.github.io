@@ -15,6 +15,11 @@
 		width: 100%;
 		margin: auto;
 	}
+		.centrado > img{
+		    position: absolute;
+		    margin-top: -35px;
+		    margin-left: 50px;
+		}
 
 		section{
 			float: left;
@@ -53,8 +58,13 @@
 					top: -180px;
 					right: -35px;
 				}
-				
+				nav li a img:hover {
+					-ms-transform: scale(0.9,0.9); /* IE 9 */
+				    -webkit-transform: scale(0.9,0.9); /* Safari */
+				    transform: scale(0.9,0.9); /* Standard syntax */
+				}
+		
 					nav li.fans:hover img.over,
 					nav li.like:hover img.over{
-						display: block;
+						display: block !important;
 					}
