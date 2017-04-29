@@ -2,8 +2,8 @@
 
 .contenedor{
 	float: left;
-	width: 820px;
-	padding: 80px;
+	width: 810px;
+	padding: 10px 80px 80px 80px;
 	box-sizing: border-box;
 	background-color: #2dad95;
 }
