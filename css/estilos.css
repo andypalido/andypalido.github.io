@@ -1,6 +1,11 @@
 @import url("reset.css");
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
 
+body{
+	background-color: #EEE;
+}
 .contenedor{
+	position: relative;
 	float: left;
 	width: 820px;
 	padding: 10px 80px 80px 80px;
@@ -68,3 +73,47 @@
 					nav li.like:hover img.over{
 						display: block !important;
 					}
+
+article{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+article#integrantes{
+	padding: 70px 20px;
+	box-sizing: border-box;
+	background-color: #FFF;
+}
+	article#integrantes > h1{
+		float: left;
+		margin-bottom: 10px;
+	}
+	article#integrantes a#cerrar-integrantes{
+		position: relative;
+		margin-top: 15px;
+		float: right;
+	}
+		article#integrantes a#cerrar-integrantes:hover{
+			-ms-transform: scale(1.5,1.5); /* IE 9 */
+		    -webkit-transform: scale(1.5,1.5); /* Safari */
+			transform: scale(1.5,1.5); /* Standard syntax */
+		}
+
+	article#integrantes ul{
+	    position: relative;
+	    margin-left: -18px;
+	    width: 820px;  
+	}
+		article#integrantes ul li{
+			float: left;
+			margin-left: 7px;
+			margin-right: 7px;
+		}
+			article#integrantes ul li p{
+				margin-left: 15px;
+				font-family: "Gochi Hand", sans-serif;
+				font-size: 18px;
+			}
