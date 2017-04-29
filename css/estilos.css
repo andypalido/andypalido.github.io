@@ -85,7 +85,7 @@ article{
 article#integrantes{
 	padding: 70px 20px;
 	box-sizing: border-box;
-	background-color: #FFF;
+	background-color: rgba(0,0,0,0.9);
 }
 	article#integrantes > h1{
 		float: left;
@@ -116,4 +116,5 @@ article#integrantes{
 				margin-left: 15px;
 				font-family: "Gochi Hand", sans-serif;
 				font-size: 18px;
+				color: #FFF;
 			}
