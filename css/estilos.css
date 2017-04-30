@@ -194,10 +194,12 @@ article#discografia{
 }
 	article#discografia h2{
 		float: left;
+		padding: 5px;
 		font-family: "Gochi Hand", sans-serif;
 		font-size: 24px;
 		margin-left: 90px;
 		margin-bottom: 40px;
+		background-color: #FFF;
 	}
 	article#discografia ul{
 		float: left;
