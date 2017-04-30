@@ -237,3 +237,23 @@ article#discografia{
 					font-style: italic;
 					font-size: 10px;
 				}
+
+article#historia{
+	padding: 20px 20px;
+	box-sizing: border-box;
+	background-color: rgba(220, 220, 220, 0.98);
+}
+	article#historia iframe{
+		margin-left: 125px;
+		margin-bottom: 20px;
+	}
+	article#historia div{
+		padding: 0 120px;
+	}
+		article#historia div p{
+			font-family: "Gochi Hand", sans-serif;
+			font-style: italic;
+			font-size: 18px;
+	    	line-height: 21px;
+	    	margin-bottom: 15px;  
+		}

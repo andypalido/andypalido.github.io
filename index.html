@@ -35,7 +35,7 @@
 					<nav>
 						<ul>
 							<li>
-								<a href="historia.html">
+								<a id="menu-historia">
 									<img src="img/layout/menu-historia.svg" alt="Historia">
 								</a>
 							</li>
@@ -71,7 +71,18 @@
 					</nav>
 
 
-					<article id="historia"></article>
+					<article id="historia">
+						<h1><img src="img/layout/titulo-historia.svg" alt="Historia"></h1>
+						<a class="cerrar"><img src="img/layout/cerrar.svg" alt="Cerrar"></a>
+						<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fyosoytuinfantojuvenil%2Fvideos%2F1337157236367935%2F&width=500&show_text=true&height=281&appId" width="500" height="281" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						<div>
+							<p>En una ciudad olvidada, en el invierno eterno, surge Infanto-Juvenil, primer y único grupo punk de Piriápolis.</p>
+							<p>El grupo surge en el año 2003, en un contexto de bandas jóvenes <br>sin temas propios, sin nada para decir.</p>
+							<p>Infanto-Juvenil se ubica en el polo opuesto, fue un ataque adolescente <br>a los valores patrióticos, al orgullo nacional, la provocación constante <br>y un gusto especial por hacerse odiar.</p>
+						</div>
+						
+					</article>
+
 					<article id="integrantes">
 						<h1><img src="img/layout/titulo-integrantes.svg" alt="Integrantes"></h1>
 						<a class="cerrar"><img src="img/layout/cerrar.svg" alt="Cerrar"></a>
@@ -98,6 +109,7 @@
 							</li>
 						</ul>
 					</article>
+
 					<article id="discografia">
 						<h1><img src="img/layout/titulo-discografia.svg" alt="Discografía"></h1>
 						<a class="cerrar"><img src="img/layout/cerrar.svg" alt="Cerrar"></a>
@@ -716,6 +728,10 @@
     		$( ".like .over" ).css( "display", "none" );
   		}
 	);
+
+	$( "#menu-historia" ).click(function() {
+		$( "#historia" ).css( "display", "block" );
+	});
 
 	$( ".menu-integrantes" ).click(function() {
 		$( "#integrantes" ).css( "display", "block" );
