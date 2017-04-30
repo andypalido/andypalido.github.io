@@ -151,28 +151,43 @@ article#letras{
 			}
 
 
-	article#letras > div:first-of-type{
-		position: relative;
-		float: left;
-		width: 450px;
-		height: 430px;
-		padding: 30px 50px;
-		box-sizing: border-box;
-		background-color: #FFF;
-		overflow-y: auto;
-		box-shadow: -5px 5px 0px rgba(0,0,0,0.1);
+	article#letras > div{
+	    position: relative;
+	    float: left;
+	    width: 450px;
+	    height: 430px;
+	    background-color: #FFF;
+	    box-shadow: -5px 5px 0px rgba(0,0,0,0.1)
 	}
-	article#letras > div:nth-of-type(2){
-		position: relative;
-		z-index: 2;
-		float: left;
-		width: 400px;
-		height: 45px;
-		background-color: #FFF;
-		box-shadow: -5px 5px 0px rgba(0,0,0,0.1);
+	article#letras > div:before{
+	    display: block;
+	    content: "";
+	    position: absolute;
+	    top: 430px;
+	    left: 0;
+	    z-index: 2;
+	    width: 400px;
+	    height: 45px;
+	    background-color: #FFF;
+	    box-shadow: -5px 5px 0px rgba(0,0,0,0.1);
+	}
+	article#letras > div:after{
+	    display: block;
+	    content: "";
+	    position: absolute;
+	    right: 0;
+	    top: 430px;
+	    z-index: 1;
+	    width: 55px;
+	    height: 50px;
+	    background-image: url(../img/layout/letras-doblez.svg);
 	}
 		article#letras div div{
 			display: none;
+			overflow: auto;
+			height: 430px;
+		    padding: 50px 50px;
+		    box-sizing: border-box;
 		}
 		article#letras div div:first-of-type{
 			display: block;
@@ -186,18 +201,17 @@ article#letras{
 			}
 			article#letras div div footer{
 				position: absolute;
-				top: 10px;
-				right: 20px;
-				font-family: "Arial", sans-serif;
-				font-style: italic;
-				font-size: 12px;
+			    top: 0;
+			    right: 20px;
+			    width: 430px;
+			    padding: 20px;
+			    box-sizing: border-box;
+			    font-family: "Arial", sans-serif;
+			    font-style: italic;
+			    font-size: 12px;
+			    text-align: right;
+			    background-color: #FFF;
 			}
-	article#letras > img{
-		position: relative;
-		float: left;
-		z-index: 1;
-		margin-left: -5px;
-	}
 
 article#discografia{
 	padding: 70px 20px;
