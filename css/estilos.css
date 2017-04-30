@@ -151,7 +151,7 @@ article#letras{
 			}
 
 
-	article#letras > div{
+	article#letras > div:first-of-type{
 		position: relative;
 		float: left;
 		width: 450px;
@@ -160,6 +160,15 @@ article#letras{
 		box-sizing: border-box;
 		background-color: #FFF;
 		overflow-y: auto;
+		box-shadow: -5px 5px 0px rgba(0,0,0,0.1);
+	}
+	article#letras > div:nth-of-type(2){
+		position: relative;
+		z-index: 2;
+		float: left;
+		width: 400px;
+		height: 45px;
+		background-color: #FFF;
 		box-shadow: -5px 5px 0px rgba(0,0,0,0.1);
 	}
 		article#letras div div{
@@ -185,8 +194,8 @@ article#letras{
 			}
 	article#letras > img{
 		position: relative;
+		float: left;
 		z-index: 1;
-		margin-top: -1px;
 		margin-left: -5px;
 	}
 
