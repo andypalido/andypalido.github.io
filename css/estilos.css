@@ -264,18 +264,19 @@ article#discografia{
 				}
 
 article#historia{
-	padding: 20px 20px;
+	padding: 10px 20px;
 	box-sizing: border-box;
 	background-color: rgba(220, 220, 220, 0.98);
 }
-	article#historia iframe{
-		margin-left: 125px;
-		margin-bottom: 20px;
+	article#historia .fb-video{
+		display: block;
+		width: 540px;
+		margin: 0 auto 20px auto;
 	}
-	article#historia div{
+	article#historia > div:nth-of-type(2){
 		padding: 0 120px;
 	}
-		article#historia div p{
+		article#historia > div:nth-of-type(2) p{
 			font-family: "Gochi Hand", sans-serif;
 			font-style: italic;
 			font-size: 18px;

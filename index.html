@@ -74,7 +74,7 @@
 					<article id="historia">
 						<h1><img src="img/layout/titulo-historia.svg" alt="Historia"></h1>
 						<a class="cerrar"><img src="img/layout/cerrar.svg" alt="Cerrar"></a>
-						<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fyosoytuinfantojuvenil%2Fvideos%2F1337157236367935%2F&width=500&show_text=true&height=281&appId" width="500" height="281" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						<div class="fb-video" data-href="https://www.facebook.com/yosoytuinfantojuvenil/videos/1337157236367935/" data-width="540" data-height="303" data-show-text="false"><blockquote cite="https://www.facebook.com/yosoytuinfantojuvenil/videos/1337157236367935/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/yosoytuinfantojuvenil/videos/1337157236367935/">Yo soy tu Infanto-Juvenil</a><p></p>Posted by <a href="https://www.facebook.com/yosoytuinfantojuvenil/">Infanto-Juvenil</a> on sábado, 8 de abril de 2017</blockquote></div>
 						<div>
 							<p>En una ciudad olvidada, en el invierno eterno, surge Infanto-Juvenil, primer y único grupo punk de Piriápolis.</p>
 							<p>El grupo surge en el año 2003, en un contexto de bandas jóvenes <br>sin temas propios, sin nada para decir.</p>
@@ -708,7 +708,7 @@
 		
 	</div>
 
-	<script>
+	<script>  
 		(function(d, s, id) {
 			var js, fjs = d.getElementsByTagName(s)[0];
 			if (d.getElementById(id)) return;
@@ -747,6 +747,7 @@
 	
 	$( ".cerrar" ).click(function() {
 		$( "article" ).css( "display", "none" );
+		//$( ".fb-video" ).pause();
 	});
 
 	
@@ -761,11 +762,6 @@
 		$( this ).addClass( "seleccionado" );
 	
 	});
-
-
-
-
-
 
 	</script>
 
