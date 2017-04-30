@@ -393,7 +393,7 @@
 								el punk te hace pensar<br>
 								que estas como un loco suelto.</p>
 
-								Te va a matar!</p>
+								<p>Te va a matar!</p>
 
 								<footer>Escrita por Oscar</footer>
 							</div>
@@ -756,6 +756,7 @@
 		
 		$( "#letras div div" ).css( "display", "none" );
 		$( "#letras ul li a" ).removeClass( "seleccionado" );
+		$( "#letras div" ).scrollTop( 0 );
 		$( "#letras div div:nth-of-type(" + $numero + ")" ).css( "display", "block" );
 		$( this ).addClass( "seleccionado" );
 	
