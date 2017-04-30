@@ -186,3 +186,52 @@ article#letras{
 		margin-top: -1px;
 		margin-left: -5px;
 	}
+
+article#discografia{
+	padding: 70px 20px;
+	box-sizing: border-box;
+	background-color: rgba(255, 195, 220, 0.98);
+}
+	article#discografia h2{
+		float: left;
+		font-family: "Gochi Hand", sans-serif;
+		font-size: 24px;
+		margin-left: 90px;
+		margin-bottom: 40px;
+	}
+	article#discografia ul{
+		float: left;
+		width: 100%;		
+	}
+		article#discografia ul li{
+			float: left;
+			margin-left: 8px;
+			margin-right: 8px;
+		}
+		article#discografia ul li:nth-of-type(1),
+		article#discografia ul li:nth-of-type(2){
+			width: 135px;
+		}
+			article#discografia ul li a{
+				color: #000;
+				text-decoration: none;
+			}
+				article#discografia ul li a img{
+					margin-bottom: 15px;
+					box-shadow: -5px 5px 0px rgba(0,0,0,0.1);
+				}
+				article#discografia ul li a:hover img{
+					-ms-transform: scale(1.1,1.1); /* IE 9 */
+				    -webkit-transform: scale(1.1,1.1); /* Safari */
+					transform: scale(1.1,1.1); /* Standard syntax */
+				}
+				article#discografia ul li a h1{
+					font-family: "Gochi Hand", sans-serif;
+					font-size: 21px;
+					margin-bottom: 5px;
+				}
+				article#discografia ul li a p{
+					font-family: "Arial", sans-serif;
+					font-style: italic;
+					font-size: 10px;
+				}
