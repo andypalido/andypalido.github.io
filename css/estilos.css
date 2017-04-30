@@ -12,8 +12,11 @@ body{
 	box-sizing: border-box;
 	background-color: #2dad95;
 }
-.contenedor, a{
+.contenedor{
 	cursor: url("../img/layout/cursor.png"), auto;
+}
+a{
+	cursor: url("../img/layout/cursor.png"), pointer;
 }
 
 	.centrado{
@@ -22,8 +25,8 @@ body{
 	}
 		.centrado > img{
 		    position: absolute;
-		    margin-top: -35px;
-		    margin-left: 50px;
+		    top: 60px;
+		    left: 130px;
 		}
 
 		section{
@@ -234,7 +237,6 @@ article#discografia{
 				}
 				article#discografia ul li a p{
 					font-family: "Arial", sans-serif;
-					font-style: italic;
 					font-size: 10px;
 				}
 
