@@ -87,16 +87,16 @@ article#integrantes{
 	box-sizing: border-box;
 	background-color: rgba(0,0,0,0.9);
 }
-	article#integrantes > h1{
+	article > h1{
 		float: left;
 		margin-bottom: 10px;
 	}
-	article#integrantes a#cerrar-integrantes{
+	article a.cerrar{
 		position: relative;
-		margin-top: 15px;
+		margin-top: 18px;
 		float: right;
 	}
-		article#integrantes a#cerrar-integrantes:hover{
+		article a.cerrar:hover{
 			-ms-transform: scale(1.5,1.5); /* IE 9 */
 		    -webkit-transform: scale(1.5,1.5); /* Safari */
 			transform: scale(1.5,1.5); /* Standard syntax */
@@ -118,3 +118,71 @@ article#integrantes{
 				font-size: 18px;
 				color: #FFF;
 			}
+
+article#letras{
+	padding: 30px 20px;
+	box-sizing: border-box;
+	background-color: rgba(255, 245, 100, 0.98);
+}
+	article#letras ul{
+		float: left;
+		margin-left: 40px;
+		margin-right: 30px;
+	}
+		article#letras ul li{
+			text-align: right;
+			margin-bottom: 15px;
+		}
+			article#letras ul li a{
+				padding: 5px;
+				font-family: "Gochi Hand", sans-serif;
+				font-size: 18px;
+			}
+				article#letras ul li a:hover{
+					color: #000;
+					background-color: #ff00bc;
+				}
+			article#letras ul li a.seleccionado{
+				color: #000;
+				background-color: #00ffad;
+			}
+
+
+	article#letras > div{
+		position: relative;
+		float: left;
+		width: 450px;
+		height: 430px;
+		padding: 30px 50px;
+		box-sizing: border-box;
+		background-color: #FFF;
+		overflow-y: auto;
+		box-shadow: -5px 5px 0px rgba(0,0,0,0.1);
+	}
+		article#letras div div{
+			display: none;
+		}
+		article#letras div div:first-of-type{
+			display: block;
+		}
+			article#letras div div p{
+				font-family: "Arial", sans-serif;
+				font-style: italic;
+				font-size: 14px;
+				line-height: 21px;
+				margin-bottom: 20px;
+			}
+			article#letras div div footer{
+				position: absolute;
+				top: 10px;
+				right: 20px;
+				font-family: "Arial", sans-serif;
+				font-style: italic;
+				font-size: 12px;
+			}
+	article#letras > img{
+		position: relative;
+		z-index: 1;
+		margin-top: -1px;
+		margin-left: -5px;
+	}
