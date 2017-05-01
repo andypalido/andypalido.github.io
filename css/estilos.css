@@ -85,11 +85,6 @@ article{
 	width: 100%;
 	height: 100%;
 }
-article#integrantes{
-	padding: 70px 20px;
-	box-sizing: border-box;
-	background-color: rgba(0,0,0,0.9);
-}
 	article > h1{
 		float: left;
 		margin-bottom: 10px;
@@ -105,6 +100,12 @@ article#integrantes{
 			transform: scale(1.5,1.5); /* Standard syntax */
 		}
 
+article#integrantes{
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0.9);
+}
+
 	article#integrantes ul{
 	    position: relative;
 	    margin-left: -18px;
@@ -112,13 +113,23 @@ article#integrantes{
 	}
 		article#integrantes ul li{
 			float: left;
+			width: 190px;
 			margin-left: 7px;
 			margin-right: 7px;
 		}
-			article#integrantes ul li p{
-				margin-left: 15px;
+			article#integrantes ul li h2{
+				padding: 0 15px;
 				font-family: "Gochi Hand", sans-serif;
 				font-size: 18px;
+				color: #FFF;
+				margin-bottom: 10px;
+			}
+			article#integrantes ul li p{
+				padding: 0 15px;
+				font-family: Arial, Helvetica, sans-serif;
+				font-style: italic;
+				font-size: 12px;
+				line-height: 18px;
 				color: #FFF;
 			}
 
@@ -193,7 +204,7 @@ article#letras{
 			display: block;
 		}
 			article#letras div div p{
-				font-family: "Arial", sans-serif;
+				font-family: Arial, Helvetica, sans-serif;
 				font-style: italic;
 				font-size: 14px;
 				line-height: 21px;
@@ -206,7 +217,7 @@ article#letras{
 			    width: 430px;
 			    padding: 20px;
 			    box-sizing: border-box;
-			    font-family: "Arial", sans-serif;
+			    font-family: Arial, Helvetica, sans-serif;
 			    font-style: italic;
 			    font-size: 12px;
 			    text-align: right;
@@ -259,7 +270,7 @@ article#discografia{
 					margin-bottom: 5px;
 				}
 				article#discografia ul li a p{
-					font-family: "Arial", sans-serif;
+					font-family: Arial, Helvetica, sans-serif;
 					font-size: 10px;
 				}
 
@@ -268,10 +279,12 @@ article#historia{
 	box-sizing: border-box;
 	background-color: rgba(220, 220, 220, 0.98);
 }
-	article#historia iframe{
+	article#historia .video{
 		display: block;
 		width: 540px;
 		margin: 0 auto 20px auto;
+		background-color: #000;
+		clear: both;
 	}
 	article#historia > div{
 		padding: 0 120px;
