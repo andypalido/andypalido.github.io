@@ -739,7 +739,7 @@
 	);
 
 	$( "#menu-historia" ).click(function() {
-		$( "#historia" ).css( "display", "block" );
+		$( "#historia" ).fadeIn("slow");
 		var $video = '<span class="video"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fyosoytuinfantojuvenil%2Fvideos%2F1337157236367935%2F&width=540&show_text=false&height=303&appId" width="540" height="303" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></span>'
 		$("#historia .cerrar").after($video);
 	});
